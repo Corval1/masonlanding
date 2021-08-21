@@ -1,0 +1,37 @@
+.MasonBody {
+    min-height: 84vh;
+}
+
+
+.grid-container {
+    display: grid;
+    align-content: start;
+    justify-content: start;
+    grid-template-rows: repeat(3);
+    gap: 10px;
+    grid-template-columns: 50vw 50vw;
+    font-size: 16px;
+  }
+
+.divider {
+  grid-column: 1 / 1;
+  color: #98c1d9a6;
+  padding-top: 50px;
+  padding-left: 20px;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden
+}
+
+  .column-a {
+    color: #E0FBFC;
+    padding-left: 20px;
+    grid-column: 1 / 1;
+    color: #DBF4A7;
+  }
+
+  .column-b {
+    color: #8E9DCC;
+    padding-left: 20px;
+    grid-column: 2 / 2;
+  }

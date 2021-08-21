@@ -1,18 +1,6 @@
 .App {
-  text-align: center;
   background-color: #293241
 }
 
-.App-logo {
-  pointer-events: none;
-}
 
-.App-body {
-  min-height: 84vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
 

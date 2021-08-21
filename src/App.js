@@ -4,32 +4,32 @@ import React, { Component } from 'react';
 import FancyButton from './components/FancyButton';
 import MasonFooter from './components/MasonFooter'
 import MasonHeader from './components/MasonHeader';
+import MasonBody from './components/MasonBody';
 
 function App() {
 
   const displayBody = () => {
+    
     let body;
       body = (      
-          <body className="App-body">         
-              <a href="https://reaper.farm" className="App-logo">
-                <img alt="Reaper Farms" src={reaperlogo} width={250} heiight={250} />
-             </a>
-         </body>
-        
+        <MasonBody></MasonBody>
       )
+
       return (
         <div>
           <div>
-          <MasonHeader></MasonHeader>
+            <MasonHeader></MasonHeader>
           </div>
             {body}
+          <div>
+            <MasonFooter></MasonFooter>
+          </div>  
         </div>)
     }
 
   return (
     <div className="App">
       {displayBody()}
-      <MasonFooter></MasonFooter>
     </div>
   );
 }
