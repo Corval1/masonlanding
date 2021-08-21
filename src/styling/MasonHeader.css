@@ -1,0 +1,13 @@
+.MasonHeader {
+    background-color: #5C9EAD;
+    min-height: 8vh;
+    color:aliceblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+.grid-container {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding-top: 50px;
+}

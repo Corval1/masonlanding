@@ -1,0 +1,64 @@
+.fancy-button {
+    background-color: hotpink;
+    border-radius: 0px;
+    height: 2rem;
+  
+    border-top-color: purple;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-bottom-color: purple;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    border-style: outset;
+    color: black;
+    text-shadow: black;
+  }
+  
+  .fancy-button:hover {
+    
+  }
+  
+  .fancy-button:active, .fancy-button.depressed {
+    background-color: blue;
+    border-top-color: purple;
+    border-left-color: purple;
+    border-right-color: purple;
+    border-bottom-color: purple;
+    border-style: inset;
+    box-shadow: 0px 0px 0px;
+  }
+  
+  .fancy-button:active div, .fancy-button.depressed div {
+    transform: translate(1.5px, 1.5px);
+  }
+  
+  .max-button {
+    font-size: 0.75rem;
+  }
+  
+  .connect-wallet-button {
+    width: 10rem;
+  }
+  
+  .connect-wallet-button.mobile {
+    width: 6.5rem;
+    font-size: 0.65rem;
+  }
+  
+  .big-button {
+    height: 2.5rem;
+  }
+  
+  .approve-button {
+    margin-top: 1rem;
+    height: 3rem
+  }
+  
+  .provider-button {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .hovering-1 {
+    position: relative;
+    z-index: 1;
+  }

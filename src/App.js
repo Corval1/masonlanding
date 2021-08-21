@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import reaperlogo from './assets/rwy.png';
 import './App.css';
+import React, { Component } from 'react';
+import FancyButton from './components/FancyButton';
+import MasonFooter from './components/MasonFooter'
+import MasonHeader from './components/MasonHeader';
 
 function App() {
+
+  const displayBody = () => {
+    let body;
+      body = (      
+          <body className="App-body">         
+              <a href="https://reaper.farm" className="App-logo">
+                <img alt="Reaper Farms" src={reaperlogo} width={250} heiight={250} />
+             </a>
+         </body>
+        
+      )
+      return (
+        <div>
+          <div>
+          <MasonHeader></MasonHeader>
+          </div>
+            {body}
+        </div>)
+    }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {displayBody()}
+      <MasonFooter></MasonFooter>
     </div>
   );
 }
