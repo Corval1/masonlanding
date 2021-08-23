@@ -11,14 +11,8 @@ return (
       <div className="divider">
     // Hello -------------------------------------------------------------------------------------------------------------------
       </div>
-
+     
       <div className="item-a">
-        Put a picture or a logo or some ASCII here for chrissake 
-      </div>
-
-  {/* maybe have this be under an about us? prompt and have it appear as a cool typed text.  */}
-      
-      <div className="item-b">
 
         <Typewriter  
           onInit={(typewriter) => {
@@ -32,6 +26,21 @@ return (
         programming and security. We strive to build good, strong, structurally sound and safe applications.  */}
 
       </div>
+      
+      <div className="divider-b">
+    // -------------------------------------------------------------------------------------------------------------------
+      </div>
+
+      <div className="item-b">
+      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⡟⠉⢳⡄⠰⡄⢀⡞⠈⠉⡟⠉⠀⣾⠉⠉<br></br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⡷⠒⠺⡄⠀⠹⡞⠀⠀⠀⠀⡇⠀⠀⣿⠒⠒<br></br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⢧⣤⠴⠃⠀⠀⠇⠀⠀⠀⠀⠇⠀⠀⢿⣤⣤<br></br>⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⢷⡀⠀⢠⢿⡇⠀⢠⠟⡆⠀⠰⡏⠉⠁⢀⡞⠉⠉⢳⡄⢸⡟⣄⠀⣿⠀⣾⠉⠉⠀⠀⠀⠀⠀<br></br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⢸⠀⢧⢀⠏⢸⡇⠀⣾⣤⣽⡄⠀⠉⠓⣦⠸⡇⠀⠀⢠⡇⢸⡇⠘⣆⣿⠀⠈⠙⢲⡀⠀⠀⠀⠀<br></br>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠸⠀⠈⠟⠀⠸⠇⠸⠁⠀⠀⠷⠐⠲⠖⠋⠀⠙⠲⠶⠋⠀⠘⠇⠀⠘⠿⠀⠒⠶⠚ <br></br>
+      </div>
+
+  {/* maybe have this be under an about us? prompt and have it appear as a cool typed text.  */}
+      
+
     </div>
   </div>
 )

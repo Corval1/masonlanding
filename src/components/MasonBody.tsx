@@ -28,7 +28,7 @@ return (
         
 
         <div className="column-b">
-            
+
         </div>
       </div>
     </div>

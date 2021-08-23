@@ -8,7 +8,6 @@
   display: grid;
   align-content: start;
   justify-content: start;
-  grid-template-rows: repeat(3);
   gap: 10px;
   grid-template-columns: 50vw 50vw;
   font-size: 16px;
@@ -18,24 +17,42 @@
   grid-column: 1 / 1;
   color: #98c1d9a6;
   padding-top: 50px;
+  padding-bottom: 0px;
   padding-left: 20px;
   text-overflow: clip;
   white-space: nowrap;
   overflow: hidden
 }
 
-.item-a {
+.divider-b {
   grid-column: 2 / 2;
+  grid-row: 1;
+  color: #98c1d9a6;
   padding-top: 50px;
+  padding-bottom: 0px;
   padding-left: 20px;
-  
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden
 }
 
-.item-b{
+
+.item-a{
   align-content: flex-start;
   grid-column: 1 / 1;
   padding-top: 5px;
   color: #EE6C4D;
   padding-left: 20px;
+}
+
+.item-b {
+  grid-column: 2 / 2;
+  grid-row: 2; 
+  padding-left: 20px;
+  font-family: monospace;
+  white-space: pre;
+  justify-self: center; 
+  overflow: hidden;
+  text-overflow: clip;
 }
 
